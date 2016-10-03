@@ -1,0 +1,3 @@
+list = 'abcdefg'
+list_array = list.split(', ')
+puts list_array=[3]

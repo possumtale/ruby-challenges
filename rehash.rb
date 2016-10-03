@@ -1,0 +1,3 @@
+current_patients = {"raccoon" => "raccoon orphaned after mom was trapped and relocated", "squirrel" => "infant squirrel blown out of nest during a storm", "oppossum" => "oppossum injured when hit by car", "fox" => "adult fox with mange", "fawn" => "fawn kidnapped by well-meaning human"}
+
+puts "In 2016, we had wildlife patients large and small, from a " + current_patients["fawn"] + " to a " + current_patients["squirrel"]  + ". Please support our work with a donation today!" 
