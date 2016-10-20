@@ -1,0 +1,15 @@
+require 'rubygems'
+require 'twilio-ruby'
+
+account_sid = "3833678943e80c15be7b1c5253e69608"
+auth_token = "3833678943e80c15be7b1c5253e69608"
+
+@client = Twilio::REST::Client.new(3833678943e80c15be7b1c5253e69608, 3833678943e80c15be7b1c5253e69608)
+
+message = @client.account.messages.create(
+    :from => "+6087090617",
+    :to => "+6087725560",
+    :body => "Haaaii!"
+)
+
+puts message.to
